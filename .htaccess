@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Redirect /Auth to index.php
+RewriteRule ^Auth$ /index.php [L]
+
+# Redirect /Dashboard to dashboard.php
+RewriteRule ^Dashboard$ /dashboard.php [L]
+
+# Redirect /Agencies to agence.php
+RewriteRule ^Agencies$ /agence.php [L]
+Options -Indexes

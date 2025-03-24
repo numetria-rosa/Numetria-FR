@@ -1,0 +1,13 @@
+
+Processed Data: Array
+(
+    [startDate] => 2025-02-18
+    [endDate] => 2025-02-18
+    [agence_pid] => 1
+    [booking_pid] => 13112
+    [reference_reservation] => DMCTNTBEDS_507942
+    [agence] => Emna Voyages
+    [date_reservation] => 2024-12-24 11:30:10
+    [prix] => 605.996
+)
+

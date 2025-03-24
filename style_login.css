@@ -1,0 +1,151 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dde5f4;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen-1 {
+    background: #f1f7fe;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0 0 2em #e6e9f9;
+    gap: 2em;
+    width: 100%;
+    max-width: 450px;
+    box-sizing: border-box;
+}
+
+.screen-1 .logo {
+    margin-top: -3em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.screen-1 .email, .screen-1 .password {
+    background: white;
+    box-shadow: 0 0 2em #414e1424;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: #67782e;
+}
+
+.screen-1 .email input, .screen-1 .password input {
+    outline: none;
+    border: 2px solid #67782e;
+    border-radius: 10px;
+    padding: 0.8em;
+    font-size: 1em;
+    color: #67782e;
+    transition: border 0.3s ease;
+}
+
+.screen-1 .email input::placeholder, .screen-1 .password input::placeholder {
+    color: #ccc;
+}
+
+.screen-1 .email ion-icon, .screen-1 .password ion-icon {
+    color: #67782e;
+    margin-bottom: -0.2em;
+}
+
+.screen-1 .login {
+    padding: 1em;
+    background: #303719;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.screen-1 .login:hover {
+    background: #67782e;
+}
+
+button {
+    cursor: pointer;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.screen-1 {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.email label, .password label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.sec-2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+    border: 1px solid #67782e;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+.sec-2 ion-icon {
+    font-size: 18px;
+    color: #67782e;
+}
+input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 5px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.login {
+    padding: 10px;
+    background: #67782e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s;
+} 
+.login:hover {
+    background: #67782e;
+}
